@@ -214,10 +214,7 @@ em {
 
 .post p { 
 	line-height: 1.55;
-	margin-bottom: 30px; 
 }
-
-.post p:last-child { margin-bottom: 0; }
 
 .post h1,
 .post h2,
