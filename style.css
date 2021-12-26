@@ -117,14 +117,12 @@ input::-moz-placeholder { color: #767676; }
 	font-weight: 700;
 	line-height: 1;
     margin-top: 80px;
-	text-align: center;
 }
 
 .site-header .site-description {
     line-height: 1.5;
 	margin: 20px auto 0 auto;
 	max-width: 620px;
-	text-align: center;
 }
 
 
@@ -135,7 +133,6 @@ input::-moz-placeholder { color: #767676; }
 
 .archive-header {
 	margin: 0;
-	text-align: center;
 	width: 100%;
 }
 
@@ -160,7 +157,7 @@ input::-moz-placeholder { color: #767676; }
 .comments .comment-respond:after,
 .pagination:before,
 .site-footer:before {
-    background: url( assets/images/sep.png ) no-repeat center;
+    background: url( assets/images/sep.png ) no-repeat;
     background-size: auto 100%;
 	content: "";
 	display: block;
@@ -170,7 +167,6 @@ input::-moz-placeholder { color: #767676; }
 
 .entry-title {
     line-height: 1.4;
-	text-align: center;
 }
 
 .featured-image { 
@@ -186,7 +182,6 @@ input::-moz-placeholder { color: #767676; }
 .post .meta p { 
 	line-height: 1.55;
     margin-bottom: 0;
-    text-align: center; 
 }
 
 span.sep { margin: 0 15px; }
@@ -426,7 +421,6 @@ caption {
 	font-size: 13px;
 	font-weight: 700;
     padding-bottom: 2.5%;
-	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -465,9 +459,6 @@ tbody > tr:nth-child(even) { background-color: #f6f6f6; }
 /* Block: File --------------------------------------- */
 
 .wp-block-file {
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
 	margin: 30px 0;
 }
 
@@ -539,8 +530,6 @@ ul.wp-block-gallery:not(.alignright) {
 /* -------------------------------------------------------------------------------- */
 
 
-.comments-closed { text-align: center; }
-
 .comment { margin-top: 40px; }
 
 .comment a { text-decoration: underline; }
@@ -600,11 +589,8 @@ ul.wp-block-gallery:not(.alignright) {
 
 .comment-respond p + p { margin-top: 20px; }
 
-.post .comment-reply-title { text-align: center; }
-
 .logged-in-as { 
     margin: -10px 0 30px; 
-    text-align: center;
 }
 
 .comment-respond label { display: block; }
@@ -615,18 +601,7 @@ ul.wp-block-gallery:not(.alignright) {
 /* -------------------------------------------------------------------------------- */
 
 
-.pagination { text-align: center; }
 .pagination * + * { margin-left: 30px; }
-
-
-/* -------------------------------------------------------------------------------- */
-/*	8.	Error 404
-/* -------------------------------------------------------------------------------- */
-
-
-.error404 .post p {
-	text-align: center;
-}
 
 
 /* -------------------------------------------------------------------------------- */
@@ -636,12 +611,10 @@ ul.wp-block-gallery:not(.alignright) {
 
 .site-footer { 
 	padding: 0 0 80px;
-	text-align: center;
 }
 
 .site-footer p { 
     line-height: 1;
-	text-align: center; 
 }
 
 .site-footer p + p { 
