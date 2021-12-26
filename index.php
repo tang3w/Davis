@@ -22,8 +22,6 @@
 		?>
     
         <header class="site-header" role="banner">
-            
-            <button type="button" class="toggle-menu" onclick="document.querySelector('body').classList.toggle('show-menu')"><?php _e( 'Menu', 'davis' ); ?></button>
 
 			<?php if ( has_nav_menu( 'primary-menu' ) ) : ?> 
 
