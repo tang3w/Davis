@@ -230,7 +230,7 @@ input::-moz-placeholder { color: #767676; }
     }
 
     .menu li {
-        line-height: 2;
+        line-height: 1.75;
     }
 
     .show-menu .site-nav {
