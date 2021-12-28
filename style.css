@@ -619,6 +619,10 @@ ul.wp-block-gallery:not(.alignright) {
     margin-top: 15px; 
 }
 
+.theme-by {
+    display: none;
+}
+
 
 /* -------------------------------------------------------------------------------- */
 /*	10.	Media Queries

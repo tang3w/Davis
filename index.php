@@ -167,7 +167,7 @@
 	        <footer class="site-footer" role="contentinfo">
 		        
 		        <p>&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a></p>
-		        <p><?php _e( 'Theme by', 'davis' ); ?> <a href="https://www.andersnoren.se">Anders Nor&eacute;n</a></p>
+		        <p class="theme-by"><?php _e( 'Theme by', 'davis' ); ?> <a href="https://www.andersnoren.se">Anders Nor&eacute;n</a></p>
 		        
 	        </footer><!-- footer -->
 	        
