@@ -1,6 +1,6 @@
 <?php if ( $comments ) : ?>
 
-	<div class="comments">
+	<div id="comments" class="comments">
 	  
 		<h3 class="comment-reply-title"><?php _e( 'Comments', 'davis' ) ?></h3>
 		
