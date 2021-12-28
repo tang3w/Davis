@@ -375,14 +375,14 @@ textarea {
 input.button,
 input[type="button"],
 input[type="submit"] {
-	background: #000;
-    border: none;
-    color: #fff;
     display: inline-block;
-	font-size: 14px;
-    padding: 14px 24px;
-	-moz-appearance: none;
-	-webkit-appearance: none;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #000;
+    color: #fff;
+    font-size: initial;
+    padding: 0.5em 1em;
 }
 
 input[type="button"]:hover,
@@ -459,14 +459,18 @@ tbody > tr:nth-child(even) { background-color: #f6f6f6; }
 	margin: 30px 0;
 }
 
-.wp-block-file a:not(.wp-block-file__button) {
-	text-decoration: none;
-}
-
 .wp-block-file__button:hover,
 .wp-block-button__link:hover {
 	opacity: .85;
 	text-decoration: none;
+}
+
+.wp-block-file a.wp-block-file__button {
+    border-radius: 0;
+    background: #000;
+    color: #fff;
+    font-size: initial;
+    padding: 0.5em 1em;
 }
 
 /* Block: Quote --------------------------------------- */
