@@ -453,6 +453,10 @@ tbody > tr:nth-child(even) { background-color: #f6f6f6; }
 	width: 100%;
 }
 
+.wp-block-image > figcaption {
+    text-align: center;
+}
+
 /* Block: File --------------------------------------- */
 
 .wp-block-file {
@@ -505,6 +509,10 @@ tbody > tr:nth-child(even) { background-color: #f6f6f6; }
 
 ul.wp-block-gallery:not(.alignright) {
 	margin-left: 0;
+}
+
+.wp-block-gallery > figcaption {
+    text-align: center;
 }
 
 /* Block: Cover Image --------------------------------------- */
