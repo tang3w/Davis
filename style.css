@@ -109,7 +109,7 @@ input::-moz-placeholder { color: #767676; }
 
 
 .site-header { 
-    margin: 0 auto 100px auto;
+    margin: 0 auto;
     max-width: 600px;
 }
 
