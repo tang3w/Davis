@@ -87,6 +87,10 @@ input::-webkit-input-placeholder { color: #767676; }
 input:-ms-input-placeholder { color: #767676; }
 input::-moz-placeholder { color: #767676; }
 
+.meta a {
+    display: inline-block;
+}
+
 
 /* -------------------------------------------------------------------------------- */
 /*	2.	Structure
