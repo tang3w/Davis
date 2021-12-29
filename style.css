@@ -791,6 +791,7 @@ ul.wp-block-gallery:not(.alignright) {
     
     .site-header .site-title { margin-top: 40px; }
     
+    .archive-header:before,
     .post:before,
     .comments:before,
     .comment-respond:before,
@@ -821,13 +822,18 @@ ul.wp-block-gallery:not(.alignright) {
 
 @media ( max-width: 500px ) {
 
-    .post:before, 
-    .comments:before, 
-    .comment-respond:before, 
-    .comments .comment-respond:after, 
-    .pagination:before, 
+    .archive-header:before,
+    .post:before,
+    .comments:before,
+    .comment-respond:before,
+    .comments .comment-respond:after,
+    .pagination:before,
     .site-footer:before {
         margin: 30px auto;
+    }
+
+    .site-footer {
+        padding-bottom: 30px;
     }
 
 }
