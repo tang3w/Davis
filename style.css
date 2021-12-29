@@ -806,6 +806,10 @@ ul.wp-block-gallery:not(.alignright) {
             left: 50%;
         width: 100vw;
     }
+
+    .featured-image > img {
+        width: 100%;
+    }
     
     span.sep { margin: 0 10px; }
     
