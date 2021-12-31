@@ -607,7 +607,7 @@ tbody > tr:nth-child(even) { background-color: #f6f6f6; }
 /* Block: File --------------------------------------- */
 
 .wp-block-file {
-	margin: 30px 0;
+	margin: 2em 0;
 }
 
 .wp-block-file a.wp-block-file__button {
