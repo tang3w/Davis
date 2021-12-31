@@ -765,7 +765,7 @@ ul.wp-block-gallery:not(.alignright) {
 
 
 .site-footer { 
-	padding: 0 0 80px;
+	margin: 2em 0;
 }
 
 .site-footer p { 
@@ -819,8 +819,6 @@ ul.wp-block-gallery:not(.alignright) {
     span.sep { margin: 0 10px; }
     
     .pagination a + a { margin-left: 20px; }
-    
-    .site-footer { padding-bottom: 50px; }
 
 }
 
@@ -834,10 +832,6 @@ ul.wp-block-gallery:not(.alignright) {
     .pagination:before,
     .site-footer:before {
         margin: 30px auto;
-    }
-
-    .site-footer {
-        padding-bottom: 30px;
     }
 
 }
