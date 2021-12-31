@@ -109,7 +109,7 @@ input::-moz-placeholder { color: #767676; }
 
 
 .site-header { 
-    margin: 0 auto;
+    margin: 2em auto;
     max-width: 600px;
 }
 
@@ -789,8 +789,6 @@ ul.wp-block-gallery:not(.alignright) {
 @media ( max-width: 700px ) {
 
     body { font-size: 16px; }
-    
-    .site-header { margin-bottom: 40px; }
 
     .site-nav {
         margin-bottom: 3em;
