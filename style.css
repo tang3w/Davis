@@ -328,6 +328,11 @@ span.sep { margin: 0 15px; }
 	text-decoration: underline; 
 }
 
+.content a.more-link {
+    text-decoration: none;
+    font-style: italic;
+}
+
 em {
     font-style: italic;
 }

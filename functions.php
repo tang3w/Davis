@@ -94,3 +94,14 @@ if ( ! function_exists( 'davis_add_block_editor_features' ) ) :
 	}
 	add_action( 'after_setup_theme', 'davis_add_block_editor_features' );
 endif;
+
+
+/* ---------------------------------------------------------------------------------------------
+   READ MORE LINK
+------------------------------------------------------------------------------------------------ */
+
+function davis_read_more_link() {
+	return '<a class="more-link" href="' . get_permalink() . '">' . __( 'Read More &rarr;', 'davis' ) . '</a>';
+}
+
+add_filter( 'the_content_more_link', 'davis_read_more_link' );
