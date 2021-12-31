@@ -153,8 +153,8 @@
             if ( ! is_singular() && ( get_previous_posts_link() || get_next_posts_link() ) ) : ?>
 	        
 		        <div class="pagination">
-					<?php previous_posts_link( '&larr; ' . __( 'Newer posts', 'davis' ) ); ?>
-					<?php next_posts_link( __( 'Older posts', 'davis') . ' &rarr;' ); ?>
+					<?php previous_posts_link( '&larr; ' . __( 'Newer Posts', 'davis' ) ); ?>
+					<?php next_posts_link( __( 'Older Posts', 'davis') . ' &rarr;' ); ?>
 		        </div><!-- .pagination -->
 	        
 	        <?php endif; ?>
