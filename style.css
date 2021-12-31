@@ -120,7 +120,8 @@ input::-moz-placeholder { color: #767676; }
 	border-radius: 0;
 	box-shadow: none;
 	font-size: 1em;
-	margin: 20px auto 0 auto;
+	margin: 1em 0 2em 0;
+    display: block;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 }
@@ -130,7 +131,7 @@ input::-moz-placeholder { color: #767676; }
 }
 
 .site-nav { 
-	margin: 20px 0 0; 
+	margin-bottom: 4em;
 }
 
 .menu {
@@ -226,7 +227,6 @@ input::-moz-placeholder { color: #767676; }
 
     .site-nav {
         display: none;
-        margin: 20px 0 0;
     }
 
     .menu {
@@ -247,7 +247,6 @@ input::-moz-placeholder { color: #767676; }
     font-size: 1.5em;
 	font-weight: 700;
 	line-height: 1;
-    margin-top: 80px;
 }
 
 .site-header .site-description {
@@ -792,8 +791,10 @@ ul.wp-block-gallery:not(.alignright) {
     body { font-size: 16px; }
     
     .site-header { margin-bottom: 40px; }
-    
-    .site-header .site-title { margin-top: 40px; }
+
+    .site-nav {
+        margin-bottom: 3em;
+    }
     
     .archive-header:before,
     .post:before,
