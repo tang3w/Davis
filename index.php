@@ -22,11 +22,10 @@
 		?>
     
         <header class="site-header" role="banner">
-            
-            <button type="button" class="toggle-menu" onclick="document.querySelector('body').classList.toggle('show-menu')"><?php _e( 'Menu', 'davis' ); ?></button>
 
 			<?php if ( has_nav_menu( 'primary-menu' ) ) : ?> 
 
+				<button type="button" class="toggle-menu" onclick="document.querySelector('body').classList.toggle('show-menu')"><?php _e( 'Menu', 'davis' ); ?></button>
 				<nav class="site-nav" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 				</nav>
