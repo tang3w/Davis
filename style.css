@@ -158,8 +158,7 @@ input::-moz-placeholder { color: #767676; }
 
     .menu .page_item_has_children > a:after,
     .menu .menu-item-has-children > a:after { 
-        content: " ↓"; 
-        font-family: 'Helvetica', sans-serif;
+        content: " ↓";
     }
 
     .menu ul {
