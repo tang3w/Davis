@@ -31,10 +31,8 @@
 				</nav>
 
 			<?php endif; ?>
-
-			<?php $site_title_elem = is_front_page() ? 'h1' : 'div'; ?>
 			
-			<<?php echo $site_title_elem; ?> class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></<?php echo $site_title_elem; ?>>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 
             <?php if ( get_bloginfo( 'description' ) ) : ?>
                 <p class="site-description"><?php bloginfo( 'description' ); ?></p>
@@ -74,13 +72,9 @@
 
                     <div <?php post_class( 'post' ); ?>>
 
-						<?php if ( ! get_post_format() == 'aside' ) : 
+						<?php if ( ! get_post_format() == 'aside' ) : ?>
 
-							$post_title_elem = is_single() ? 'h1' : 'h2';
-						
-							?>
-
-                            <<?php echo $post_title_elem; ?> class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></<?php echo $post_title_elem; ?>>
+                            <h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
                         <?php endif; ?>
                         
